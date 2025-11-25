@@ -49,7 +49,42 @@ Create Entry: Navigate to */tracker* and submit a new wellness entry, ensuring a
 
 Verify History: Check the list of entries below the submission form on the */tracker* page to confirm the new entry was successfully added and displayed.
 The application should now be accessible at: http://127.0.0.1:5000/
+## ⚙️ Steps to Install & Run the Project
 
+Follow these steps to get the application running on your local machine.
+
+Prerequisites
+
+Python 3.8+
+
+### 1. Clone the Repository
+
+git clone (https://github.com/priyansh25mip10050/Vityarthi.git)
+cd Vityarthi
+
+
+### 2. Create and Activate a Virtual Environment
+
+**Create environment**
+python -m venv venv
+
+**Activate on macOS/Linux**
+source venv/bin/activate
+
+**Activate on Windows (Command Prompt)**
+venv\Scripts\activate
+
+
+### 3. Install Dependencies
+
+pip install Flask Flask-SQLAlchemy
+
+
+### 4. Run the Application
+
+The database (task.db) and tables will be created automatically on the first run.
+
+python app.py
 ## Screenshots
 <img width="2876" height="1544" alt="Screenshot 2025-11-22 230711" src="https://github.com/user-attachments/assets/146b9426-9a44-4c4f-a8c6-4f8e263547d9" />
 <img width="2833" height="1553" alt="Screenshot 2025-11-22 231017" src="https://github.com/user-attachments/assets/f3b1d198-920e-4d25-a06e-3c72b2454b0f" />
