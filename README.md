@@ -1,4 +1,4 @@
-# 📅 Task Scheduler & Wellness Tracker
+# 📅 To-Do list & Wellness Tracker
 
 ## 📝 Overview of the Project
 
